@@ -20,7 +20,7 @@
             android:id="@+id/weekday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
+            android:layout_marginLeft="16dp"
             android:digits="0123456789"
             android:hint="Hours slept on typical weekday night"
             android:inputType="number|none"
@@ -31,7 +31,7 @@
             android:id="@+id/weekend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
+            android:layout_marginLeft="16dp"
             android:digits="0123456789"
             android:hint="Hours slept on typical weekend night"
             android:inputType="number|none"
@@ -57,7 +57,7 @@
                 android:id="@+id/resetbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="76dp"
+                android:layout_marginLeft="32dp"
                 android:onClick="ResetValues"
                 android:text="RESET" />
         </LinearLayout>
